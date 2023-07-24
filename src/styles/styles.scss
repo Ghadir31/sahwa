@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import 'abstracts/base-dir';
+@import 'vendors/base-dir';
+@import 'base/base-dir';
+@import 'layouts/base-dir';
+@import 'components/base-dir';
+@import 'pages/base-dir';

@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+footer{
+    width: 100vw;
+    background-color: #000000;
+    padding-top: 110px;
+    padding-bottom: 160px;
+    position: relative;
+    color: $text-color-dark;
+    
+    .decoration{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+    }
+    .content{
+        position: relative;
+        z-index: 10;
+        .box{
+            padding: 50px;
+            background-color: #DDD9DE;
+            border-radius: 10px;
+            .paragraph-wrapper{ 
+                width: 120px;
+                p{
+                    font-size: 28px;
+                    color: $text-color-light;
+                }
+            }
+            .form-wrapper{
+                width: 120px;
+
+            }
+        }
+
+    }
+}
