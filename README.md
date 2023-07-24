@@ -1,4 +1,5 @@
 # Sahwa
+An awareness project about climate change intended for Arab audiences
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
